@@ -1,0 +1,64 @@
+.main_page {
+    padding: 162px 0 166px 0;
+}
+
+.text {
+    color: #696969;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text h1{
+    font-size: 60px;
+    line-height: 90px;
+    color: #27272A;
+    margin-bottom: 4px;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: #7E3AF2;
+    margin-top: 89px;
+}
+
+.text p {
+    max-width: 445px;
+    padding: 24px 0 60px 0;
+}
+
+@media (max-width: 792px) {
+
+    .main_page {
+        padding: 44px 0 51px 0;
+    }
+
+    .line {
+        margin-top: 33px;
+    }
+
+    .text p {
+        padding: 16px 0 44px 0;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .main_page {
+        padding: 27px 0 51px 0;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .text h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .text p {
+        padding: 24px 0 27px 0;
+    }
+}

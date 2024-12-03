@@ -1,0 +1,61 @@
+
+.block_input{
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 24px;
+    color: #696969;
+}
+
+.block_input label {
+    font-family: 'Montserrat_SemiBold', 'sans-serif';
+    color: #27272A;
+    margin-bottom: 8px;
+}
+
+.block_input label span {
+    font-family: 'Montserrat_SemiBold', 'sans-serif';
+    color: #E02424;
+}
+
+.block_input_text {
+    position: relative;
+}
+
+.input_text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 20px 13px 54px;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    resize: none;
+    outline: none;
+    box-shadow: 0 0 0 30px #FCFBFA inset !important;
+}
+
+.input_text:hover {
+    border: 1px solid #7E3AF2;
+}
+
+.input_text:focus {
+    border: 1px solid #7E3AF2;
+}
+
+.input_icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-top: -12px;
+    fill: #696969;
+    stroke: #696969;
+}
+
+.input_text:valid:not(:placeholder-shown) + .input_icon {
+    fill: #7E3AF2;
+    stroke: #7E3AF2;
+}

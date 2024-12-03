@@ -1,0 +1,57 @@
+.btn {
+    display: inline-block;
+    padding: 10px 58px 10px 22px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    background-color: #7E3AF2;
+    text-align: left;
+    color: #FCFBFA;
+}
+
+.btn:hover {
+    background-color: #6C2BD9;
+}
+
+.btn:active{
+    border: 3px solid #CABFFD;
+}
+
+.btn_info {
+    font-family: 'Montserrat_SemiBold';
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+}
+
+.btn_info::after {
+    content: url('../../images/Send.svg');
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    right: -36px;
+    transform: translateY(-50%)
+}
+
+@media (max-width: 420px) {
+
+    .btn {
+        padding: 9px 37px 9px 13px;
+    }
+
+    .btn_info {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .btn_info::after {
+        content: url('../../images/Send.svg');
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        top: 50%;
+        right: -24px;
+        transform: translateY(-50%)
+    }
+
+}

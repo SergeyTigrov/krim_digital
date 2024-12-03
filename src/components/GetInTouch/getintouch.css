@@ -1,0 +1,78 @@
+.get_in_touch {
+    background-image: url('../../images/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.block_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 10px;
+}
+
+.form {
+    background-color: #FCFBFA;
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.form h2 {
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 24px;
+}
+
+.text_about_project {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696969;
+}
+
+.text_about_project label {
+    font-family: 'Montserrat_SemiBold', 'sans-serif';
+    color: #27272A;
+    margin-bottom: 8px;
+}
+
+.text_about_project textarea {
+    width: 100%;
+    background-color: #FCFBFA;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 20px;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    resize: none;
+    outline: none;
+}
+
+.text_about_project textarea:hover{
+    border: 1px solid #7E3AF2;
+}
+
+.text_about_project textarea:focus{
+    border: 1px solid #7E3AF2;
+}
+
+.text_about_project {
+    margin: 37px 0;
+}
+
+.text_about_project textarea {
+    height: 122px;
+}
+
+
+
+
+

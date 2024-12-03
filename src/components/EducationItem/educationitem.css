@@ -1,0 +1,23 @@
+.education_item {
+    display: flex;
+    column-gap: 16px;
+    padding-bottom: 32px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #27272A;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.years {
+    width: 146px;
+}
+
+.education_item_text_bold {
+    font-family: 'Montserrat_SemiBold', 'sans-serif';
+    margin-bottom: 8px;
+}
+
+.education_item:last-child {
+    border-bottom: none;
+}
+
