@@ -1,22 +1,21 @@
 
 .block_input{
-    width: 324px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     font-size: 16px;
     line-height: 24px;
-    padding-top: 24px;
     color: #696969;
 }
 
 .block_input label {
-    font-family: 'Montserrat_SemiBold', 'sans-serif';
+    font-family: 'Montserrat_SemiBold', sans-serif;
     color: #27272A;
     margin-bottom: 8px;
 }
 
 .block_input label span {
-    font-family: 'Montserrat_SemiBold', 'sans-serif';
+    font-family: 'Montserrat_SemiBold', sans-serif;
     color: #E02424;
 }
 
@@ -26,31 +25,47 @@
 
 .input_text {
     width: 100%;
+    background-color: #FCFBFA;
     font-size: 16px;
     line-height: 24px;
     padding: 13px 20px 13px 54px;
-    border: 1px solid #E5E7EB;
     border-radius: 16px;
     resize: none;
     outline: none;
-    box-shadow: 0 0 0 30px #FCFBFA inset !important;
 }
 
-.input_text:hover {
+.not_error{
+    border: 1px solid #E5E7EB;
+}
+
+.not_error:hover {
     border: 1px solid #7E3AF2;
 }
 
-.input_text:focus {
+.error {
+    border: 1px solid #E02424;
+}
+
+.not_error:focus {
     border: 1px solid #7E3AF2;
+}
+
+.input_text:disabled {
+    background-color: #E5E7EB;
+    cursor: not-allowed;
+}
+
+.input_text:disabled:hover {
+    border: 1px solid #E5E7EB;
 }
 
 .input_icon {
-    width: 24px;
-    height: 24px;
+    width: 19px;
+    height: 19px;
     position: absolute;
     top: 50%;
     left: 20px;
-    margin-top: -12px;
+    margin-top: -9.5px;
     fill: #696969;
     stroke: #696969;
 }
@@ -58,4 +73,28 @@
 .input_text:valid:not(:placeholder-shown) + .input_icon {
     fill: #7E3AF2;
     stroke: #7E3AF2;
+} 
+
+.validation_error{
+    position: absolute;
+    left: 0;
+    bottom: -21px;
+    font-family: 'Montserrat_SemiBold', sans-serif;
+    color: #E02424;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+@media (max-width: 688px) {
+
+    .block_input{
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 24px;
+    }
+
+    .validation_error {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }

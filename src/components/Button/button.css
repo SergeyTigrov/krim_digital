@@ -3,9 +3,13 @@
     padding: 10px 58px 10px 22px;
     border-radius: 50px;
     border: 3px solid transparent;
-    background-color: #7E3AF2;
     text-align: left;
+}
+
+.btn {
+    background-color: #7E3AF2;
     color: #FCFBFA;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -16,15 +20,39 @@
     border: 3px solid #CABFFD;
 }
 
+.btn:disabled {
+    background-color: #E5E7EB;
+    color: #696969;
+    cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+    background-color: #E5E7EB;
+}
+
+.btn:disabled:active {
+    border: 3px solid transparent;
+}
+
 .btn_info {
-    font-family: 'Montserrat_SemiBold';
+    font-family: 'Montserrat_SemiBold', sans-serif;
     font-size: 16px;
     line-height: 24px;
     position: relative;
 }
 
-.btn_info::after {
+.btn .btn_info::after {
     content: url('../../images/Send.svg');
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    right: -36px;
+    transform: translateY(-50%)
+}
+
+.btn:disabled .btn_info::after {
+    content: url('../../images/Send_disabled.svg');
     width: 18px;
     height: 18px;
     position: absolute;
@@ -35,7 +63,7 @@
 
 @media (max-width: 420px) {
 
-    .btn {
+    .btn{
         padding: 9px 37px 9px 13px;
     }
 
@@ -44,7 +72,7 @@
         line-height: 21px;
     }
     
-    .btn_info::after {
+    .btn  .btn_info::after {
         content: url('../../images/Send.svg');
         width: 18px;
         height: 18px;
@@ -53,5 +81,16 @@
         right: -24px;
         transform: translateY(-50%)
     }
+
+    .btn:disabled .btn_info::after {
+        content: url('../../images/Send_disabled.svg');
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        top: 50%;
+        right: -24px;
+        transform: translateY(-50%)
+    }
+    
 
 }

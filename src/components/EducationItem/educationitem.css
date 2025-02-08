@@ -13,11 +13,18 @@
 }
 
 .education_item_text_bold {
-    font-family: 'Montserrat_SemiBold', 'sans-serif';
+    font-family: 'Montserrat_SemiBold', sans-serif;
     margin-bottom: 8px;
 }
 
 .education_item:last-child {
     border-bottom: none;
+}
+
+@media (max-width: 500px) {
+    .education_item {
+        font-size: 14px;
+        line-height: 21px;
+    }
 }
 

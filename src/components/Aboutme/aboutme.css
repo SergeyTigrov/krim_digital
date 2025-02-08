@@ -1,3 +1,4 @@
+
 .aboout_me {
     padding: 100px 0;
 }
@@ -35,7 +36,7 @@
 }
 
 .about_nick_info {
-    width: 537px;
+    width: 450px;
 }
 
 .about_nick_info p {
@@ -47,8 +48,12 @@
 }
 
 .about_nick_info p span {
-    font-family: 'Montserrat_SemiBold', 'sans-serif';
+    font-family: 'Montserrat_SemiBold', sans-serif;
     color: #27272A;
+}
+
+.btn1 {
+    display: block;
 }
 
 .line2 {
@@ -82,5 +87,67 @@
 .education_items {
     display: grid;
     row-gap: 24px;
+}
+
+.btn2 {
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .photo_nick_img {
+        width: 256px;
+        height: 256px;
+        margin: 17px;
+    }
+}
+
+@media (max-width: 717px) {
+    .about_nick  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about_nick_info {
+        margin-top: 34px;
+    }
+
+    .btn1 {
+        display: none;
+    }
+
+    .btn2 {
+        display: block;
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about_nick_info p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .about_me_info h3, .about_me_info h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .aboout_me {
+        padding: 48px 0 100px 0;
+    }
+
+    .aboout_me h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 36px;
+    }
+    
+    .about_nick_info p {
+        margin-bottom: 0;
+    }
+
+    .interests, .education {
+        padding-top: 48px;
+    }
 }
 

@@ -1,0 +1,36 @@
+.burger_menu {
+    display: none;
+    position: relative;
+    width: 22px;
+    height: 19px;
+    cursor: pointer;
+    z-index: 101;
+}
+
+.burger_line1, .burger_line2, .burger_line3 {
+    width: 22px;
+    height: 3px;
+    position: absolute;
+    background-color: #27272A;
+    border-radius: 3px;
+}
+
+.burger_line1 {
+    top: 0;
+    transition: .3s;
+}
+
+.burger_line2 {
+    top: 8px;
+}
+
+.burger_line3 {
+    bottom: 0;
+    transition: .3s;
+}
+
+@media (max-width: 420px) {
+    .burger_menu {
+        display: block;
+    }
+}

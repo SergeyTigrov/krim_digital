@@ -9,20 +9,20 @@ import EducationItem from '../EducationItem/EducationItem'
 
 export default function AboutMe() {
     return(
-        <section>
+        <section id='aboutme'>
             <div className="container">
                 <div className="aboout_me">
                     <h2>About me</h2>
                     <div className="about_nick">
                         <div className="photo_nick">
                             <div className="photo_nick_img">
-                                <img src={photo} alt="photo" />
+                                <img src={photo} alt="Nick" />
                             </div>
                         </div>
                         <div className="about_nick_info">
                             <div className="line2"></div>
                             <p><span>Nick Richardson</span> - specialist in Frontend development. Clear code is my passion. Solving issues through negotiations</p>
-                            <Button btn_name={'Get in touch'}/>
+                            <div className='btn1'><Button btn_name={'Get in touch'} disabled={true} navigate={'getintouch'}/></div>
                         </div>
                     </div>
                     <div className="about_me_info">
@@ -42,6 +42,7 @@ export default function AboutMe() {
                                 <EducationItem years={'2000 - 2005'} text1={'Frontend developer'} text2={'Saint Petersburg State University'}/>
                             </div>
                         </div>
+                        <div className='btn2'><Button btn_name={'Get in touch'}/></div>
                     </div>
                 </div>
             </div>
