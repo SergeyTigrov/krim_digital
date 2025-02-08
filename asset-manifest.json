@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/krim_digital/static/css/main.4c059f0e.css",
+    "main.js": "/krim_digital/static/js/main.c33b99cf.js",
+    "static/media/Background.png": "/krim_digital/static/media/Background.b49fc2999fb766c302ba.png",
+    "static/media/Background_get_in_touch.png": "/krim_digital/static/media/Background_get_in_touch.468e7112792e21595089.png",
+    "static/media/photo 2.jpg": "/krim_digital/static/media/photo 2.cee78e87597d47058689.jpg",
+    "static/media/photo.png": "/krim_digital/static/media/photo.1e0571c5e1416b5ee388.png",
+    "static/media/Montserrat-Bold.ttf": "/krim_digital/static/media/Montserrat-Bold.3530bfc1b50b41bdc29d.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/krim_digital/static/media/Montserrat-SemiBold.38e62f01be69b2e02e29.ttf",
+    "static/media/Montserrat-Regular.ttf": "/krim_digital/static/media/Montserrat-Regular.cfbf0da06d33097e6d0a.ttf",
+    "static/media/Logo.svg": "/krim_digital/static/media/Logo.fde17a6233c5dbf3a6247afb0312d80b.svg",
+    "static/media/Drawing.svg": "/krim_digital/static/media/Drawing.768ad548a0396ae79cdce390c83d0fd9.svg",
+    "static/media/Music.svg": "/krim_digital/static/media/Music.11932cc8c8febc4f8772d60ff8fadcb4.svg",
+    "static/media/Picture.svg": "/krim_digital/static/media/Picture.1ed458e745b246813c484ad02c624a27.svg",
+    "static/media/Validation_error.svg": "/krim_digital/static/media/Validation_error.ef1d9d2c453ae8f58353234f61e5d45e.svg",
+    "static/media/Person.svg": "/krim_digital/static/media/Person.6dc0b91cbc8ae5d586ab3d3eeb40c5ca.svg",
+    "static/media/mail.svg": "/krim_digital/static/media/mail.4cbb65d7aa0b051d8b9762306814484e.svg",
+    "static/media/Send.svg": "/krim_digital/static/media/Send.4621c5f6b93f85c130e5.svg",
+    "static/media/Send_disabled.svg": "/krim_digital/static/media/Send_disabled.1a210e496cdac7d8a6c4.svg",
+    "index.html": "/krim_digital/index.html",
+    "main.4c059f0e.css.map": "/krim_digital/static/css/main.4c059f0e.css.map",
+    "main.c33b99cf.js.map": "/krim_digital/static/js/main.c33b99cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c059f0e.css",
+    "static/js/main.c33b99cf.js"
+  ]
+}
